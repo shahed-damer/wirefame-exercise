@@ -1,0 +1,78 @@
+
+
+body {
+
+    display: grid;
+    
+    gap: 30px;
+
+}
+
+header {
+    display: flex;
+    
+    justify-content: space-between;
+    background-color: dimgray;
+  
+    align-items: center;
+
+}
+
+header a {
+    text-decoration:grey;
+    text-transform:capitalize;
+    padding :50px
+
+    
+}
+header img {
+    padding: 10px;
+
+}
+
+main{
+display: grid;
+gap: 30px;
+
+
+}
+
+section:nth-child(1) img{
+    
+    width:100%;
+
+
+}
+
+section:nth-child(2){
+display: flex;
+  justify-content: space-between;
+
+}
+
+section:nth-child(3){
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+ section div {
+     display: grid;
+     justify-content: space-between;
+
+     
+ }
+ section div p{
+     overflow: scroll;
+
+
+ }
+
+  
+footer{ 
+    background-color: dimgray;
+   
+    height: 200px;
+
+}
